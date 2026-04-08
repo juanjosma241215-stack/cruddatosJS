@@ -1,0 +1,13 @@
+{
+  "name": "cruddatosjs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proyecto de practica JavaScript con interfaz Bootstrap y almacenamiento local.",
+  "scripts": {
+    "dev": "browser-sync start --server --files \"index.html, src/**/*.js, src/**/*.css, public/**/*\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
+}
